@@ -9,5 +9,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
   <modules>
   	<module>helloweb03</module>
   	<module>emaillist03</module>
+  	<module>guestbook03</module>
   </modules>
 </project>

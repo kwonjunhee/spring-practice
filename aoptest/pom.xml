@@ -62,7 +62,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-			
+
 		</plugins>
 	</build>	
   

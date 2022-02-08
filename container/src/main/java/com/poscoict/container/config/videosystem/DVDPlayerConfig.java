@@ -8,7 +8,7 @@ import com.poscoict.container.videosystem.DVDPlayer;
 import com.poscoict.container.videosystem.DigitalVideoDisc;
 
 @Configuration
-public class DvdPlayerConfig {
+public class DVDPlayerConfig {
 	
 	@Bean
 	public DigitalVideoDisc avengers() {
@@ -43,7 +43,7 @@ public class DvdPlayerConfig {
 	// 같은 타입으 ㅣ빈을 생성할 경우
 	@Bean(name="dvdPlayer04") // id 못 씀
 	public DVDPlayer dvdPlayer04(DigitalVideoDisc dvd) {
-		return new DVDPlayer();
+		return new DVDPlayer(dvd);
 	}
 	
 }

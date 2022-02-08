@@ -143,33 +143,33 @@ public class DVDPlayerXmlConfigTest {
 	@Test
 	public void testPlay1() {
 		dvdPlayer1.play();
-		assertEquals("Playing Movie MARVEL's ironMan", systemOutRule.getLog().replace("\r\n", "").replace("\n", "") );
+		assertEquals("Playing Movie MARVEL's IronMan", systemOutRule.getLog().replace("\r\n", "").replace("\n", "") );
 	}
 
 	@Test
 	public void testPlay2() {
 		dvdPlayer2.play();
-		assertEquals("Playing Movie MARVEL's ironMan", 
+		assertEquals("Playing Movie MARVEL's IronMan", 
 				systemOutRule.getLog().replace("\r\n", "").replace("\n", "") );
 	}
 	
 	@Test
 	public void testPlay3() {
 		dvdPlayer3.play();
-		assertEquals("Playing Movie MARVEL's ironMan", 
+		assertEquals("Playing Movie MARVEL's IronMan", 
 				systemOutRule.getLog().replace("\r\n", "").replace("\n", "") );
 	}
 
 	@Test
 	public void testPlay4() {
 		dvdPlayer4.play();
-		assertEquals("Playing Movie MARVEL's ironMan", 
+		assertEquals("Playing Movie MARVEL's IronMan", 
 				systemOutRule.getLog().replace("\r\n", "").replace("\n", "") );
 	}
 	@Test
 	public void testPlay5() {
 		dvdPlayer5.play();
-		assertEquals("Playing Movie MARVEL's ironMan", 
+		assertEquals("Playing Movie MARVEL's IronMan", 
 				systemOutRule.getLog().replace("\r\n", "").replace("\n", "") );
 	}
 
